@@ -1,0 +1,34 @@
+.promptWrapper {
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    background: rgb(55, 55, 138);
+    border-radius: 10px;
+    border-color: red;
+    border-width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 65px;
+    left: 35%;
+}
+
+.promptText {
+    color: white;
+}
+.promptButtonWrapper {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.promptButton {
+    border-color: rgb(162, 174, 190);
+    background-color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+    text-decoration-color: white;
+}
